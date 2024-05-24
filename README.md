@@ -1,2 +1,0 @@
-# MilovzorovaTarkvara
-Minu tarkvara oskused
