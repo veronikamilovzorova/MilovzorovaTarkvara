@@ -1,26 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #222; /* Темный фон */
+    color: #fff; /* Белый текст */
 }
 
 .wrapper {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #333; /* Цвет контейнера */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Усиленная тень */
 }
 
 h1, h2 {
-    color: #007bff;
-}
-
-#esimene, #teine, #kolmas, #neljas {
-    margin-bottom: 30px;
+    color: #ff7f50; /* Оранжевый цвет для заголовков */
+    text-align: center; /* Центрирование заголовков */
+    font-family: 'Roboto', sans-serif; /* Красивый шрифт для заголовков */
 }
 
 ul {
@@ -28,10 +26,39 @@ ul {
 }
 
 a {
-    color: #007bff;
+    color: #ff7f50; /* Оранжевый цвет для ссылок */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
