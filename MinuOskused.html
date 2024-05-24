@@ -3,41 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Tarkvaraarendaja</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> Tarkvaraarendaja</h1>
+<h1 id="tarkvaraarendaja">Tarkvaraarendaja</h1>
 <h2> Veronika Milovzorova</h2>
-<h3> Minu keele oskused</h3>
-<p>Tere,</p>
-<p>Minu olen õpilane TTHK's ja õpin teisel kursusel.</p>
-<p>elle aja jooksul olen õppinud HTML-i, PHP-d, JavaScripti, SQL-i, Pythonit ja C#. </p>
-<p>See teekond on võimaldanud mul sukelduda veebiarenduse ja programmeerimise mitmekesistesse aspektidesse,</p>
-<p>alates interaktiivsete veebirakenduste loomisest kuni andmebaaside töötlemise ja andmeanalüüsini.</p>
-<p>Mulle meeldib see maailm väga ja olen valmis selles veelgi sügavamale sukelduma.</p>
+<div class="wrapper">
+    <div id="esimene">
+        <h2 id="keeled">Minu keele oskused</h2>
+        <ul>
+            <li>Olen õpilane TTHK's ja õpin teisel kursusel.</li>
+            <li>Selle aja jooksul olen õppinud:
+                <ul>
+                    <li>HTML-i</li>
+                    <li>PHP-d</li>
+                    <li>JavaScripti</li>
+                    <li>SQL-i</li>
+                    <li>Pythonit</li>
+                    <li>C#</li>
+                </ul>
+            </li>
+            <li>See teekond on võimaldanud mul sukelduda veebiarenduse ja programmeerimise mitmekesistesse aspektidesse, alates interaktiivsete veebirakenduste loomisest kuni andmebaaside töötlemise ja andmeanalüüsini.</li>
+            <li>Mulle meeldib see maailm väga ja olen valmis selles veelgi sügavamale sukelduma.</li>
+        </ul>
+    </div>
 
-<h4>Minu programmide oskused</h4>
-<p>Ma olen tutvunud erinevate programmidega oma praktikas.</p>
-<p>Nende hulgas on Visual Studio, Php Storm ja Web Storm, mis pakuvad laia valikut võimalusi erinevate</p>
-<p> programmeerimiskeelte arendamiseks koos võimsate tööriistade ja laiendustega.</p>
-<p>Xampp on olnud mugav platvorm kohaliku veebirakenduste arendamiseks ning</p>
-<p>SQL Server on olnud usaldusväärne vahend andmebaaside haldamiseks.</p>
-<p>Lisaks olen kasutanud VirtualBoxi, mis võimaldab luua ja hallata virtuaalseid masinaid, </p>
-<p>võimaldades tarkvara testimist erinevates keskkondades. Samuti olen kasutanud</p>
-<p>Microsofti erinevaid programme oma töös.</p>
+    <div id="teine">
+        <h2 id="minu_programmide_oskused">Minu programmide oskused</h2>
+        <ul>
+            <li>Olen tutvunud erinevate programmidega oma praktikas, sealhulgas:
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>Php Storm</li>
+                    <li>Web Storm</li>
+                </ul>
+            </li>
+            <li>Nende hulgas on olnud võimsad tööriistad ja laiendused.</li>
+            <li>Xampp on olnud mugav platvorm kohaliku veebirakenduste arendamiseks.</li>
+            <li>SQL Server on olnud usaldusväärne vahend andmebaaside haldamiseks.</li>
+            <li>Lisaks olen kasutanud VirtualBoxi tarkvara testimiseks erinevates keskkondades.</li>
+            <li>Olen kasutanud ka Microsofti erinevaid programme oma töös.</li>
+        </ul>
+    </div>
 
-<h5>Minu arvuti oskused</h5>
-<p>Мinu oskused hõlmavad võimet luua esteetiliselt meeldivaid veebisaidi prototüüpe</p>
-<p>mugava ja kutsuva disainiga ning võimet arendada väikseid, kuid</p>
-<p>funktsionaalseid rakendusi. Mul on kogemusi erinevat tüüpi andmebaasidega töötamisel ning</p>
-<p>mul on põhiteadmised operatsioonisüsteemidega töötamisel. Minu võime programme kirjutada võimaldab mul teostada</p>
-<p>erinevaid ideid reaalsuseks ning lahendada mitmekesiseid ülesandeid infotehnoloogia valdkonnas.</p>
-<a href="https://veronikamilovzorova22.thkit.ee/milovzorova/konsult/login1.php">Minu parem projekt</a>
+    <div id="kolmas">
+        <h2 id="minu_arvuti_oskused">Minu arvuti oskused</h2>
+        <ul>
+            <li>Oskused hõlmavad võimet luua esteetiliselt meeldivaid veebisaidi prototüüpe mugava ja kutsuva disainiga ning võimet arendada väikseid, kuid funktsionaalseid rakendusi.</li>
+            <li>Mul on kogemusi erinevat tüüpi andmebaasidega töötamisel.</li>
+            <li>Mul on põhiteadmised operatsioonisüsteemidega töötamisel.</li>
+            <li>Minu võime programme kirjutada võimaldab mul teostada erinevaid ideid reaalsuseks ning lahendada mitmekesiseid ülesandeid infotehnoloogia valdkonnas.</li>
+        </ul>
+        <a href="https://veronikamilovzorova22.thkit.ee/milovzorova/konsult/login1.php">Minu parem projekt</a>
+    </div>
 
-<h6> MVP (Minimum Viable Product)</h6>
-<p>IT-projektides saan kasutada MVP põhimõtet, alustades iteratiivsete prototüüpide</p>
-<p>rendamisest, seejärel nende testimisest sihtgrupiga tagasiside saamiseks ja toote</p>
-<p>iteratiivseks parendamiseks. See võimaldab vähendada arendusaega, vähendada riske ja</p>
-<p>luua konkurentsivõimelisema toote, mis on kohandatud kasutajate vajadustele.</p>
-
+    <div id="neljas">
+        <h2 id="mvp">MVP (Minimum Viable Product)</h2>
+        <p>IT-projektides saan kasutada MVP põhimõtet, alustades iteratiivsete prototüüpide rendamisest, seejärel nende testimisest sihtgrupiga tagasiside saamiseks ja toote iteratiivseks parendamiseks. See võimaldab vähendada arendusaega, vähendada riske ja luua konkurentsivõimelisema toote, mis on kohandatud kasutajate vajadustele.</p>
+    </div>
+</div>
 </body>
 </html>
